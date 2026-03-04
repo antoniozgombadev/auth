@@ -16,6 +16,8 @@ app.config.from_object(Config)
 
 print("DATABASE_URL FROM ENV:", os.environ.get("DATABASE_URL"))
 db.init_app(app)
+with app.app_context():
+    db.create_all()
 jwt = JWTManager(app)
 bcrypt = Bcrypt(app)
 
