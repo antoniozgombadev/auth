@@ -129,3 +129,9 @@ http://localhost:5000
 ## Purpose
 
 This project demonstrates backend authentication logic commonly used in modern web applications. It shows how to implement JWT-based authentication with protected routes using Flask and connect it with a React frontend.
+
+## Preview
+
+![LoginPage](./screenshots/login-page.png)
+![Login-successful](./screenshots/login-successful.png)
+![Postman](./screenshots/postman-register.png)
